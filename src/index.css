@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import 'modern-normalize/modern-normalize.css';
+
+:root {
+  --font-family: 'Montserrat', sans-serif;
+  --light: #f7fbfb;
+  --primary-text: #1b1d1b;
+  --secondary-text: #242424;
+  --blue: #5b86a1;
+  --grey: #a3a5a3;
+}
+
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+  src: url('./fonts/Montserrat/Montserrat-VariableFont_wght.ttf');
+  font-weight: 400 600;
+  font-style: normal;
+}
+
+body {
+  font-family: var(--font-family);
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
