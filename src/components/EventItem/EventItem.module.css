@@ -1,0 +1,59 @@
+.item {
+    max-width: 350px;
+    /* height: 425px; */
+}
+
+.imgWrap {
+    /* width: 350px; */
+    height: 187px;
+    overflow: hidden;
+
+}
+
+.itemImg {
+    width: 100%;
+    height: auto;
+    
+}
+
+.itemInfo {
+    height: 232px;
+    border: 1px solid #ccc;
+    box-shadow: 0 5px 0 rgba(0, 0, 0, .08);
+    border-top: none;
+    padding: 24px 16px;
+}
+
+.itemTitle {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.itemDesc {
+    font-size: 16px;
+    color: var(--secondary-text);
+    margin-bottom: 16px;
+}
+
+.organizerWrap {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.date {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.linkList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.linkItem {
+    font-weight: 600;
+}
