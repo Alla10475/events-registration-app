@@ -1,7 +1,10 @@
+import RegistrationForm from "../../components/RegistrationForm/RegistrationForm"
 
 const EventsRegistrationPage = () => {
   return (
-    <div>EventsRegistrationPage</div>
+    <div>
+      <RegistrationForm/>
+    </div>
   )
 }
 
