@@ -16,8 +16,8 @@ function App() {
       {''}
       <Routes>
         <Route path='/' element={<EventsBoardPage/>} />
-        <Route path='/register' element={<EventsRegistrationPage/> } />
-        <Route path='/view' element={<EventsParticipantsPage/> } />
+        <Route path='/register/:id' element={<EventsRegistrationPage/> } />
+        <Route path='/view/:id' element={<EventsParticipantsPage/> } />
         <Route path='*' element={<NotFoundPage/> } />
       </Routes>
     </Container>

@@ -2,7 +2,8 @@ import css from "./EventItem.module.css"
 import { Link } from 'react-router-dom';
 import { FcCalendar } from 'react-icons/fc';
 
-const EventItem = ({ title, description, event_date, organizer, image }) => {
+const EventItem = ({ id, title, description, event_date, organizer, image }) => {
+
   return (
     <div>
       <li className={css.item}>
@@ -22,14 +23,16 @@ const EventItem = ({ title, description, event_date, organizer, image }) => {
           </div>
           <ul className={css.linkList}>
             <li>
-              <Link className={css.linkItem} to="/register">Register</Link>
+              <Link className={css.linkItem} to={`/register/${id}`}>
+                Register
+              </Link>
             </li>
             <li>
-              <Link className={css.linkItem} to="/view">View</Link>
+              <Link className={css.linkItem} to={`/view/${id}`}>
+                View
+              </Link>
             </li>
           </ul>
-
-          
         </div>
       </li>
     </div>

@@ -1,0 +1,59 @@
+.registerForm {
+  background-color: rgb(236, 240, 240);
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 450px;
+  border: 2px solid var(--grey);
+  border-radius: 10px;
+  padding: 32px;
+}
+
+.registerFormTitle {
+  font-size: 30px;
+  text-align: center;
+  color: var(--blue);
+  /* margin-bottom: 24px; */
+}
+
+.inputWrap {
+    position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.formLabel {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+.registerBtn {
+  border: none;
+  border-radius: 4px;
+  padding: 12px 28px;
+  background-color: var(--blue);
+  color: var(--light);
+  font-size: 16px;
+}
+
+.radioWrap {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+.dateInput {
+  width: 100%;
+  padding-right: 36px; 
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.calendarSvg {
+  position: absolute;
+  right: 10px;
+  top: 70%;
+  transform: translateY(-50%); 
+  pointer-events: none; 
+}
